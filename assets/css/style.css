@@ -3671,7 +3671,7 @@ Page Title Area CSS
 }
 
 .page-title-area.item-bg-1 {
-  background-image: url(../../assets/img/page-title/location1.png);
+  background-image: url(../../assets/img/page-title/location1.jpg);
 }
 
 .page-title-area.item-bg-2 {
@@ -3695,7 +3695,7 @@ Page Title Area CSS
 }
 
 .page-title-area.item-bg-publication {
-  background-image: url(../../assets/img/page-title/publication.png);
+  background-image: url(../../assets/img/page-title/publication.jpg);
 }
 
 .page-title-area::before {
