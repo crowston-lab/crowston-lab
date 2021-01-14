@@ -1900,12 +1900,24 @@ Team Area CSS
   overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
-
-.single-team .image img {
   border-radius: 50%;
   border: 5px solid #4fa6c3;
 }
+
+
+
+.single-team .image img {
+  opacity： 1；
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+  
+}
+
+.single-team:hover .image img{
+  opacity: 0.3;
+ }
 
 .single-team .image .social {
   padding-left: 0;
@@ -1940,7 +1952,7 @@ Team Area CSS
   text-align: center;
   position: relative;
   font-size: 15px;
-  color: #ffffff;
+  color: #204c7d;
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1958,7 +1970,7 @@ Team Area CSS
 }
 
 .single-team .image .social li a:hover {
-  color: #ffffff;
+  color: #204c7d;
   
 }
 
