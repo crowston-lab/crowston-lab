@@ -2033,7 +2033,7 @@ Team Area CSS
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 15px;
+  bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -2066,9 +2066,7 @@ Team Area CSS
 }
 
 .single-team-box .image .social li a i {
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: relative;
   
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
