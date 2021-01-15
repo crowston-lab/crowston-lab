@@ -1960,9 +1960,7 @@ Team Area CSS
 
 .single-team .image .social li a i {
   position: relative;
-  left: 0;
-  right: 0;
-  top: -6%;
+  
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   margin-left: 0 ;
