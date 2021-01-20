@@ -1145,7 +1145,7 @@ Main Slider Area CSS
   left: 0;
   right: 0;
   top: 0;
-  opacity: .46;
+  opacity: 0.36;
   z-index: -1;
 }
 
@@ -3695,7 +3695,7 @@ Page Title Area CSS
   background-image: url(../../assets/img/page-title/bg-4.jpg);
 }
 
-.page-title-area.item-bg-5 {
+.page-title-area.item-bg-team {
   background-image: url(../../assets/img/page-title/bg-5.jpg);
 }
 
