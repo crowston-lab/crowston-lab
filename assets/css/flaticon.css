@@ -2,36 +2,35 @@
 Flaticon icon font: Flaticon
 */
 @font-face {
-	font-family: "Flaticon";
-	src: url("../../assets/fonts/Flaticon.eot");
-	src: url("../../assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-	url("../../assets/fonts/Flaticon.woff2") format("woff2"),
-	url("../../assets/fonts/Flaticon.woff") format("woff"),
-	url("../../assets/fonts/Flaticon.ttf") format("truetype"),
-	url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+	font-family: "flaticon";
+	src: url("../../assets/fonts/flaticon.eot");
+	src: url("../../assets/fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/flaticon.woff2") format("woff2"),
+	url("../../assets/fonts/flaticon.woff") format("woff"),
+	url("../../assets/fonts/flaticon.ttf") format("truetype"),
+	url("../../assets/fonts/flaticon.svg#Flaticon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	@font-face {
-		font-family: "Flaticon";
-		src: url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+		font-family: "flaticon";
+		src: url("../../assets/fonts/flaticon.svg#flaticon") format("svg");
 	}
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-	font-family: Flaticon;
+	font-family: flaticon;
 	font-style: normal;
 }
 
-.flaticon-lab-tool:before { content: "\f100"; }
-.flaticon-laboratory:before { content: "\f101"; }
-.flaticon-darts:before { content: "\f102"; }
-.flaticon-test:before { content: "\f103"; }
-.flaticon-microscope:before { content: "\f104"; }
-.flaticon-red-blood-cells:before { content: "\f105"; }
-.flaticon-lungs:before { content: "\f106"; }
-.flaticon-heart:before { content: "\f107"; }
-.flaticon-right-quotes-symbol:before { content: "\f108"; }
-.flaticon-loupe:before { content: "\f109"; }
+.flaticon-loupe:before { content: "\f101"; }
+.flaticon-cells:before { content: "\f102"; }
+.flaticon-microscope:before { content: "\f103"; }
+.flaticon-biological:before { content: "\f104"; }
+.flaticon-lab-tool:before { content: "\f105"; }
+.flaticon-laboratory:before { content: "\f106"; }
+.flaticon-test:before { content: "\f107"; }
+.flaticon-mouse:before { content: "\f108"; }
+.flaticon-right-quotes-symbol:before { content: "\f109"; }
 .flaticon-cancel:before { content: "\f10a"; }
